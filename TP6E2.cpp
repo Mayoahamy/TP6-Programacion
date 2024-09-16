@@ -28,7 +28,7 @@ void Triangulo::ladomayor(){
 			cout<<"Los lados 1 y 3 son los mayores"<<endl;
 		}
 	}
-	else if(lado1==lado2==lado3){
+	else if(static_cast<int>(lado1==lado2)==lado3){
 		cout<<"Todos los lados son iguales"<<endl;
 	}
 	else if(lado2>lado1){
